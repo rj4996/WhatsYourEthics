@@ -11,55 +11,55 @@ const quizQuestions = [
   {
     question: "There is a massive natural disaster, and people lose access to their regular forms of transportation. A company provides taxi services, and they are unsure what to do in this high-demand scenario. Should the company increase their prices, decrease their prices, or keep them the same?",
     choices: ["Reduce prices, so that more people could have access to the service in times of great need", "Reduce prices, as the company has a relationship with their customers, and in order to maintain the well-being of their relationship with customers they should reduce prices in times of need", "Keep prices, as neither party should take advantage of the situation"],
-    explanations: ["This reasoning aims to ensure that the amount of total benefit is maximized, as the company sacrificing profits would help many people during a difficult situation.", "This reasoning focuses on the caring relationship between the company and customer and the duty of the company to maintain the longevity of the relationship.", "Deontology"],
+    explanations: ["This reasoning reflects Utilitarianism and aims to ensure that the amount of total benefit is maximized, as the company sacrificing profits would help many people during a difficult situation.", "This reasoning reflects Care Ethics and focuses on the caring relationship between the company and customer and the duty of the company to maintain the longevity of the relationship.", "This answer reflects Deontology and describes how each party should treat the other party as an end instead of a means to an end. Thus, keeping the price the same ensures that neither party is taken advantage of."],
     theories: [4,3,0],
   },
   {
     question: "There is a massive natural disaster, and people lose access to their regular forms of transportation. A company provides taxi services, and they are unsure what to do in this high-demand scenario. How should a government distribute resources to those who are affected from the flood?",
     choices: ["Distribute to traditionally marginalized areas and groups first in order to account for socioeconomic inequities.", "Distribute resources to everyone equally.", "Distribute resources to those who are most in need first."],
-    explanations: ["This explanation highlights the structural inequities present in society.", "virtue", "consequbefwfs"],
+    explanations: ["This explanation highlights the structural inequities present in society, which reflects Structural Justice.", "This explanation highlights how each life is worth the same, which reflects Utilitarianism.", "This explanation highlights caring for the vulnerable as an ethical virtue, which reflects Care Ethics"],
     theories: [2,4,3],
   },
   {
     question: "There is a massive natural disaster, and people lose access to their regular forms of transportation. A company provides taxi services, and they are unsure what to do in this high-demand scenario. The government wants to create a database that keeps track of the specific damages (both costs and areas where there was damage) from previous natural disasters to better address future natural disasters. When doing this, the government collects satellite images of these disasters. Is the government justified in doing this?",
     choices: ["Yes. To better understand how to deal with future natural disasters, we must understand the strengths and weaknesses of the government’s response to previous disasters.","Yes. The government has a responsibility to ensure the well-being of its citizens, and by identifying vulnerable areas during a disaster, it can make sure each of its citizens have a great chance at recovering from the natural disaster.","No. This amount of data may not respect the privacy of people in different affected regions and may bring them unwarranted government attention."],
-    explanations: ["This response highlights virtue ethics because it emphasizes the need to learn ethics from prior experiences. Additionally, it emphasizes “fundamental human goods” by valuing the life and safety of citizens.","This highlights the caring relationship between the government and its citizens and the importance of caring for the vulnerable.","This response highlights how the government should treat people as an end in and of themselves and thus respect their privacy."],
+    explanations: ["This response reflects Virtue Ethics and highlights virtue ethics because it emphasizes the need to learn ethics from prior experiences. Additionally, it emphasizes “fundamental human goods” by valuing the life and safety of citizens.","This response reflects Care Ethics and highlights the caring relationship between the government and its citizens and the importance of caring for the vulnerable.","This response reflects Deontology and highlights how the government should treat people as an end in and of themselves and thus respect their privacy."],
     theories: [1,3,0],
   }, 
   {
     question: "A new predictive policing algorithm is developed to determine the likelihood of someone for reincarceration. Should this algorithm be used in conviction?",
     choices: ["Not at all. Sentencing requires an understanding of fundamental human virtues which an AI cannot grasp.", "Not at all. Due to its biased input data, the algorithm would promote systemic and structural inequities if it had any role in conviction.", "Yes. If the algorithm is overall more accurate than a judge might be in assessing risk, it can and should be used."],
-    explanations: ["deont", "virtue", "consequbefwfs"],
+    explanations: ["This response reflects Virtue Theory", "This response reflects Structural Justice", "This response reflects Utilitarianism"],
     theories: [1,2,4],
   },
   {
     question: "A new predictive policing algorithm is developed to determine the likelihood of someone for reincarceration. How should the algorithm account for racial biases?",
     choices: ["It should reactively reduce the likelihood for certain racial groups more vulnerable to police encounters (ex. African and Hispanic Americans).", "Nothing. Changing the algorithm would inherently be unfair.", "There is no way to fix this issue without solving the root issue of systemic racism."],
-    explanations: ["deont", "virtue", "consequbefwfs"],
+    explanations: ["This reponse reflects Utilitarianism", "This response emphasizes that changing the test would be manipulative, regardless of the outcome. This emphasis on manipulation relates to the deontological ideal of treating everyone as an end rather than a means to an end.", "This reponse reflects Structural Justice and highlights the need to solve for systemic injustices rather than adjusting for adverse effects."],
     theories: [4,0,2],
   },
   {
     question: " A new predictive policing algorithm is developed to determine the likelihood of someone for reincarceration. If a judge uses the algorithm to make a conviction, and it is later known that the risk assessment was inaccurate, who is to blame for the mistake?",
     choices: ["The judge. He is the only rational agent in the situation, but he instead deferred responsibility to an algorithm. By doing so, he did not respect the right of the accused to be judged by a rational individual. The algorithm is not a rational agent, and cannot be at fault.", "The judge. The judge was the only one who could understand the intricacies of the situation and use his understanding of the law and fundamental human values to deliver a verdict. The algorithm, since it is not human, cannot understand human values and character, so it should not have been used for conviction.", "The algorithm. The algorithm provided wrong and harmful information, so it is to blame, even though it is not sentient. The judge provided no information of his own, so he cannot be to blame."],
-    explanations: ["Deontology", "Virtue theory", "Information ethics"],
+    explanations: ["This reponse reflects Deontology", "This reponse reflects Virtue Theory", "This reponse reflects Information Ethics"],
     theories: [0, 1, 5],
   },
   {
     question: "Issues with the development of generative AI, harm to the information environment. A new generative AI chatbot helps college applicants get their questions answered during the stressful college application process. The AI has no way to verify the truth of its statements, as it primarily just pulls from the internet. Suppose the AI says the acceptance rate of a certain college is 26 percent instead of 24 percent (since the updated acceptance rate is outside the time period of data from which the AI pulls from). Has the AI committed an ethical mistake?",
     choices: ["No. There are little to no repercussions to the AI’s mistake.","No. The AI is not conscious of the decisions it makes, so it cannot be wrong.","Yes. By putting incorrect information into circulation, the AI has committed an ethical wrong, even though it may not be sentient."],
-    explanations: ["Utilitarianism","Deontology","Information Ethics"],
+    explanations: ["This reponse reflects Utilitarianism","This reponse reflects Deontology","This reponse reflects Information Ethics"],
     theories: [4,0,5],
   },
   {
     question: "Issues with the development of generative AI, harm to the information environment. A new generative AI chatbot helps college applicants get their questions answered during the stressful college application process. With the increasing popularity of this generative AI, students start to rely less and less on teachers, college counselors, family, and other students when navigating the college admissions process, instead just getting most of their information from the AI. Is this a problem? If it is, why could it be a problem?",
     choices: ["Yes. The AI has no way of verifying or contextualizing its information, so solely relying on it for information would be incomplete as it could be putting false information into the environment.","Yes. AI cannot replicate the caring relationships that teachers, counselors, family, and other students have with the applicant, which help the student find out what's best for them.","No. Students from higher socioeconomic backgrounds traditionally have better support during the college application process, so the popularity of an open-source AI would help alleviate this structural problem."],
-    explanations: ["his argument focuses on how there is harm to the infosphere (or information environment), and that itself is a problem, regardless of whether the agent is sentient or not.","This argument emphasizes how AI cannot replace caring relationships that are innate to humans.","This argument focuses on the inequalities present within current social structures and how AI could alleviate this issue"],
+    explanations: ["This argument reflects Information Ethics and focuses on how there is harm to the infosphere (or information environment), and that itself is a problem, regardless of whether the agent is sentient or not.","This argument reflects Care Ethics and emphasizes how AI cannot replace caring relationships that are innate to humans.","This argument reflects Structural Justice and focuses on the inequalities present within current social structures and how AI could alleviate this issue"],
     theories: [5,3,2],
   },
   {
     question: "Issues with the development of generative AI, harm to the information environment. A new generative AI chatbot helps college applicants get their questions answered during the stressful college application process. The company which created the chatbot now wants to impose ethical restrictions. What is the best way for the company to impose such restrictions?",
     choices: ["The AI should learn from its prior experiences. Depending on how users and/or the creators react to what it outputs, it should alter its response to be more ethical.","The company should code in ethical rules which the AI should follow which prevent the AI from outputting fake or potentially harmful information out into the environment."],
-    explanations: ["This answer reflects virtue ethics because it emphasizes that ethical virtues are learned through experience rather than rigid moral codes.","This focuses on restricting the spread of potentially false and harmful information into the infosphere."],
+    explanations: ["This answer reflects virtue ethics because it emphasizes that ethical virtues are learned through experience rather than rigid moral codes.","This reponse reflects Information Ethics and focuses on restricting the spread of potentially false and harmful information into the infosphere."],
     theories: [1,5],
   },
 ];
@@ -142,12 +142,15 @@ function endQuiz() {
   
   let maxIndex = 0;
   let maxValue = theoriesList[0];
+
   theoriesList.forEach((theory, index) => {
     if (theory > maxValue){
       maxValue = theory;
       maxIndex = index;
     }
+    theoriesList[index] = (theoriesList[index]/totalQuestions) * 100;
   });
+
   switch(maxIndex){
     case 0:
       resultTheory = "Deontology";
@@ -185,27 +188,27 @@ function endQuiz() {
     </div>
     <div class="slider-container">
     <div class="slider-wrapper">
-    <div class="slider" id="slider1"><div class="slider-description">${theoriesList[0]}%</div></div>
+    <div class="slider" id="slider1"><div class="slider-description">${Math.round(theoriesList[0])}%</div></div>
     <div class="slider-label">Deontology</div>
     </div> 
     <div class="slider-wrapper">
-    <div class="slider" id="slider2"><div class="slider-description">${theoriesList[1]}%</div></div>
+    <div class="slider" id="slider2"><div class="slider-description">${Math.round(theoriesList[1])}%</div></div>
     <div class="slider-label">Virtue</div>
     </div>
     <div class="slider-wrapper">
-    <div class="slider" id="slider3"><div class="slider-description">${theoriesList[2]}%</div></div>
+    <div class="slider" id="slider3"><div class="slider-description">${Math.round(theoriesList[2])}%</div></div>
     <div class="slider-label">Structural</div>
     </div>
     <div class="slider-wrapper">
-    <div class="slider" id="slider4"><div class="slider-description">${theoriesList[3]}%</div></div>
+    <div class="slider" id="slider4"><div class="slider-description">${Math.round(theoriesList[3])}%</div></div>
     <div class="slider-label">Care</div>
     </div>
     <div class="slider-wrapper">
-    <div class="slider" id="slider5"><div class="slider-description">${theoriesList[4]}%</div></div>
+    <div class="slider" id="slider5"><div class="slider-description">${Math.round(theoriesList[4])}%</div></div>
     <div class="slider-label">Utilitarianism</div>
     </div>
     <div class="slider-wrapper">
-    <div class="slider" id="slider5"><div class="slider-description">${theoriesList[5]}%</div></div>
+    <div class="slider" id="slider5"><div class="slider-description">${Math.round(theoriesList[5])}%</div></div>
     <div class="slider-label">Information</div>
     </div>
     </div>
